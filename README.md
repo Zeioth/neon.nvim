@@ -27,6 +27,14 @@ Dark variants of Tokyonight with cyberpunk vibes.
       <img src="https://github.com/user-attachments/assets/e9582c36-b9ff-4a69-a8fc-4f004d5c0b11" />
     </td>
   </tr>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/4f57bc36-62e5-488c-a6c8-69631a73c113" />
+    </td>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/04d42c5a-023b-4ab6-bac9-4788cd32b950" />
+    </td>
+  </tr>
 </table>
 
 ## Features
