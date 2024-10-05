@@ -1,12 +1,6 @@
-# 🏙 Tokyo Night
+# 🏙 Neon Cherry Kiss
 
-A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
-[Lua](https://www.lua.org) ported from the [Visual Studio Code
-TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
-[extra](#-extras) themes for [Kitty](https://sw.kovidgoyal.net/kitty/conf.html),
-[Alacritty](https://github.com/alacritty/alacritty),
-[iTerm](https://iterm2.com/) and
-[Fish](https://fishshell.com/docs/current/index.html).
+Cyberpunk theme that is basically Tokyonight with eldritch colors. The idea making it vibrant while keeping low LCD font glow.
 
 <table width="100%">
   <tr>
@@ -34,15 +28,6 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
     </td>
   </tr>
 </table>
-
-## ✨ Features
-
-- Supports the latest [Neovim](https://github.com/neovim/neovim)
-  [0.9.0](https://github.com/neovim/neovim/releases/tag/v0.9.0) features.
-- Terminal colors.
-- Supports all major plugins.
-- Provides [TokyoNight](https://github.com/folke/neon-cherry-kiss.nvim)
-  [extras](#-extras) for numerous other applications.
 
 <details>
 <summary>🎨 Supported Plugins</summary>
@@ -120,46 +105,6 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 <details>
 <summary>🍭 Extras</summary>
 
-<!-- extras:start -->
-
-| Tool | Extra |
-| --- | --- |
-| [Aerc](https://git.sr.ht/~rjarry/aerc/) | [extras/aerc](extras/aerc) |
-| [Alacritty](https://github.com/alacritty/alacritty) | [extras/alacritty](extras/alacritty) |
-| [Delta](https://github.com/dandavison/delta) | [extras/delta](extras/delta) |
-| [Dunst](https://dunst-project.org/) | [extras/dunst](extras/dunst) |
-| [Fish](https://fishshell.com/docs/current/index.html) | [extras/fish](extras/fish) |
-| [Fish Themes](https://fishshell.com/docs/current/interactive.html#syntax-highlighting) | [extras/fish_themes](extras/fish_themes) |
-| [Foot](https://codeberg.org/dnkl/foot) | [extras/foot](extras/foot) |
-| [Fuzzel](https://codeberg.org/dnkl/fuzzel) | [extras/fuzzel](extras/fuzzel) |
-| [Fzf](https://github.com/junegunn/fzf) | [extras/fzf](extras/fzf) |
-| [GitUI](https://github.com/extrawurst/gitui) | [extras/gitui](extras/gitui) |
-| [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) | [extras/gnome_terminal](extras/gnome_terminal) |
-| [Helix](https://helix-editor.com/) | [extras/helix](extras/helix) |
-| [iTerm](https://iterm2.com/) | [extras/iterm](extras/iterm) |
-| [Kitty](https://sw.kovidgoyal.net/kitty/conf.html) | [extras/kitty](extras/kitty) |
-| [Lazygit](https://github.com/jesseduffield/lazygit) | [extras/lazygit](extras/lazygit) |
-| [Lua Table for testing](https://www.lua.org) | [extras/lua](extras/lua) |
-| [Prism](https://prismjs.com) | [extras/prism](extras/prism) |
-| [process-compose](https://f1bonacc1.github.io/process-compose/) | [extras/process_compose](extras/process_compose) |
-| [Slack](https://slack.com) | [extras/slack](extras/slack) |
-| [Spotify Player](https://github.com/aome510/spotify-player) | [extras/spotify_player](extras/spotify_player) |
-| [Sublime Text](https://www.sublimetext.com/docs/themes) | [extras/sublime](extras/sublime) |
-| [Terminator](https://gnome-terminator.readthedocs.io/en/latest/config.html) | [extras/terminator](extras/terminator) |
-| [Tilix](https://github.com/gnunn1/tilix) | [extras/tilix](extras/tilix) |
-| [Tmux](https://github.com/tmux/tmux/wiki) | [extras/tmux](extras/tmux) |
-| [Vim](https://vimhelp.org/) | [extras/vim](extras/vim) |
-| [Vimium](https://vimium.github.io/) | [extras/vimium](extras/vimium) |
-| [WezTerm](https://wezfurlong.org/wezterm/config/files.html) | [extras/wezterm](extras/wezterm) |
-| [Windows Terminal](https://aka.ms/terminal-documentation) | [extras/windows_terminal](extras/windows_terminal) |
-| [Xfce Terminal](https://docs.xfce.org/apps/terminal/advanced) | [extras/xfceterm](extras/xfceterm) |
-| [Xresources](https://wiki.archlinux.org/title/X_resources) | [extras/xresources](extras/xresources) |
-| [Yazi](https://github.com/sxyazi/yazi) | [extras/yazi](extras/yazi) |
-| [Zathura](https://pwmt.org/projects/zathura/) | [extras/zathura](extras/zathura) |
-| [Zellij](https://zellij.dev/) | [extras/zellij](extras/zellij) |
-
-<!-- extras:end -->
-
 </details>
 
 ## ⚡️ Requirements
@@ -174,7 +119,7 @@ Install the theme with your preferred package manager, such as
 
 ```lua
 {
-  "folke/neon-cherry-kiss.nvim",
+  "zeioth/neon-cherry-kiss.nvim",
   lazy = false,
   priority = 1000,
   opts = {},
