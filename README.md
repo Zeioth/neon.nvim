@@ -4,7 +4,7 @@ Dark variants of Tokyonight with cyberpunk vibes.
 
 <table width="100%">
   <tr>
-    <th>Moon</th>
+    <th>neon-cherrykiss-night</th>
     <th>Storm</th>
   </tr>
   <tr>
