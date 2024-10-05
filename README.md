@@ -28,6 +28,10 @@ Dark variants of Tokyonight with cyberpunk vibes.
     </td>
   </tr>
   <tr>
+    <th>neon-netrunner-night</th>
+    <th>neon-netrunner-storm</th>
+  </tr>  
+  <tr>
     <td width="50%">
       <img src="https://github.com/user-attachments/assets/4f57bc36-62e5-488c-a6c8-69631a73c113" />
     </td>
