@@ -40,8 +40,8 @@ Dark variants of Tokyonight with cyberpunk vibes.
     </td>
   </tr>
     <tr>
-    <th>neon-netrunner-night</th>
-    <th>neon-netrunner-storm</th>
+    <th>neon-punkpeach-night</th>
+    <th>neon-punkpeach-storm</th>
   </tr>  
   <tr>
     <td width="50%">
