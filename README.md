@@ -16,15 +16,15 @@ Dark variants of Tokyonight with cyberpunk vibes.
     </td>
   </tr>
   <tr>
-    <th>Night</th>
-    <th>Day</th>
+    <th>neon-cyberpunk-night</th>
+    <th>neon-cyberpunk-storm</th>
   </tr>
   <tr>
     <td width="50%">
-      <img src="https://user-images.githubusercontent.com/292349/115295327-7afdce80-a10e-11eb-89b3-2591262bf95a.png" />
+      <img src="https://github.com/user-attachments/assets/435341be-0e13-4711-8e2b-5f68562830a1" />
     </td>
     <td width="50%">
-      <img src="https://user-images.githubusercontent.com/292349/115996270-78c6c480-a593-11eb-8ed0-7d1400b058f5.png" />
+      <img src="https://github.com/user-attachments/assets/e9582c36-b9ff-4a69-a8fc-4f004d5c0b11" />
     </td>
   </tr>
 </table>
