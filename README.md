@@ -41,7 +41,7 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
   [0.9.0](https://github.com/neovim/neovim/releases/tag/v0.9.0) features.
 - Terminal colors.
 - Supports all major plugins.
-- Provides [TokyoNight](https://github.com/folke/neon-cherry-kiss.nvim)
+- Provides [TokyoNight](https://github.com/folke/.nvim)
   [extras](#-extras) for numerous other applications.
 
 <details>
@@ -51,67 +51,67 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 
 | Plugin | Source |
 | --- | --- |
-| [aerial.nvim](https://github.com/stevearc/aerial.nvim) | [`aerial`](lua/neon-cherry-kiss/groups/aerial.lua) |
-| [ale](https://github.com/dense-analysis/ale) | [`ale`](lua/neon-cherry-kiss/groups/ale.lua) |
-| [alpha-nvim](https://github.com/goolord/alpha-nvim) | [`alpha`](lua/neon-cherry-kiss/groups/alpha.lua) |
-| [barbar.nvim](https://github.com/romgrk/barbar.nvim) | [`barbar`](lua/neon-cherry-kiss/groups/barbar.lua) |
-| [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) | [`bufferline`](lua/neon-cherry-kiss/groups/bufferline.lua) |
-| [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) | [`cmp`](lua/neon-cherry-kiss/groups/cmp.lua) |
-| [nvim-dap](https://github.com/mfussenegger/nvim-dap) | [`dap`](lua/neon-cherry-kiss/groups/dap.lua) |
-| [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) | [`dashboard`](lua/neon-cherry-kiss/groups/dashboard.lua) |
-| [flash.nvim](https://github.com/folke/flash.nvim) | [`flash`](lua/neon-cherry-kiss/groups/flash.lua) |
-| [fzf-lua](https://github.com/ibhagwan/fzf-lua) | [`fzf`](lua/neon-cherry-kiss/groups/fzf.lua) |
-| [vim-gitgutter](https://github.com/airblade/vim-gitgutter) | [`gitgutter`](lua/neon-cherry-kiss/groups/gitgutter.lua) |
-| [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) | [`gitsigns`](lua/neon-cherry-kiss/groups/gitsigns.lua) |
-| [glyph-palette.vim](https://github.com/lambdalisue/glyph-palette.vim) | [`glyph-palette`](lua/neon-cherry-kiss/groups/glyph-palette.lua) |
-| [grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim) | [`grug-far`](lua/neon-cherry-kiss/groups/grug-far.lua) |
-| [headlines.nvim](https://github.com/lukas-reineke/headlines.nvim) | [`headlines`](lua/neon-cherry-kiss/groups/headlines.lua) |
-| [hop.nvim](https://github.com/phaazon/hop.nvim) | [`hop`](lua/neon-cherry-kiss/groups/hop.lua) |
-| [vim-illuminate](https://github.com/RRethy/vim-illuminate) | [`illuminate`](lua/neon-cherry-kiss/groups/illuminate.lua) |
-| [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) | [`indent-blankline`](lua/neon-cherry-kiss/groups/indent-blankline.lua) |
-| [indentmini.nvim](https://github.com/nvimdev/indentmini.nvim) | [`indentmini`](lua/neon-cherry-kiss/groups/indentmini.lua) |
-| [lazy.nvim](https://github.com/folke/lazy.nvim) | [`lazy`](lua/neon-cherry-kiss/groups/lazy.lua) |
-| [leap.nvim](https://github.com/ggandor/leap.nvim) | [`leap`](lua/neon-cherry-kiss/groups/leap.lua) |
-| [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim) | [`lspsaga`](lua/neon-cherry-kiss/groups/lspsaga.lua) |
-| [mini.animate](https://github.com/echasnovski/mini.animate) | [`mini_animate`](lua/neon-cherry-kiss/groups/mini_animate.lua) |
-| [mini.clue](https://github.com/echasnovski/mini.clue) | [`mini_clue`](lua/neon-cherry-kiss/groups/mini_clue.lua) |
-| [mini.completion](https://github.com/echasnovski/mini.completion) | [`mini_completion`](lua/neon-cherry-kiss/groups/mini_completion.lua) |
-| [mini.cursorword](https://github.com/echasnovski/mini.cursorword) | [`mini_cursorword`](lua/neon-cherry-kiss/groups/mini_cursorword.lua) |
-| [mini.deps](https://github.com/echasnovski/mini.deps) | [`mini_deps`](lua/neon-cherry-kiss/groups/mini_deps.lua) |
-| [mini.diff](https://github.com/echasnovski/mini.diff) | [`mini_diff`](lua/neon-cherry-kiss/groups/mini_diff.lua) |
-| [mini.files](https://github.com/echasnovski/mini.files) | [`mini_files`](lua/neon-cherry-kiss/groups/mini_files.lua) |
-| [mini.hipatterns](https://github.com/echasnovski/mini.hipatterns) | [`mini_hipatterns`](lua/neon-cherry-kiss/groups/mini_hipatterns.lua) |
-| [mini.icons](https://github.com/echasnovski/mini.icons) | [`mini_icons`](lua/neon-cherry-kiss/groups/mini_icons.lua) |
-| [mini.indentscope](https://github.com/echasnovski/mini.indentscope) | [`mini_indentscope`](lua/neon-cherry-kiss/groups/mini_indentscope.lua) |
-| [mini.jump](https://github.com/echasnovski/mini.jump) | [`mini_jump`](lua/neon-cherry-kiss/groups/mini_jump.lua) |
-| [mini.map](https://github.com/echasnovski/mini.map) | [`mini_map`](lua/neon-cherry-kiss/groups/mini_map.lua) |
-| [mini.notify](https://github.com/echasnovski/mini.notify) | [`mini_notify`](lua/neon-cherry-kiss/groups/mini_notify.lua) |
-| [mini.operators](https://github.com/echasnovski/mini.operators) | [`mini_operators`](lua/neon-cherry-kiss/groups/mini_operators.lua) |
-| [mini.pick](https://github.com/echasnovski/mini.pick) | [`mini_pick`](lua/neon-cherry-kiss/groups/mini_pick.lua) |
-| [mini.starter](https://github.com/echasnovski/mini.starter) | [`mini_starter`](lua/neon-cherry-kiss/groups/mini_starter.lua) |
-| [mini.statusline](https://github.com/echasnovski/mini.statusline) | [`mini_statusline`](lua/neon-cherry-kiss/groups/mini_statusline.lua) |
-| [mini.surround](https://github.com/echasnovski/mini.surround) | [`mini_surround`](lua/neon-cherry-kiss/groups/mini_surround.lua) |
-| [mini.tabline](https://github.com/echasnovski/mini.tabline) | [`mini_tabline`](lua/neon-cherry-kiss/groups/mini_tabline.lua) |
-| [mini.test](https://github.com/echasnovski/mini.test) | [`mini_test`](lua/neon-cherry-kiss/groups/mini_test.lua) |
-| [mini.trailspace](https://github.com/echasnovski/mini.trailspace) | [`mini_trailspace`](lua/neon-cherry-kiss/groups/mini_trailspace.lua) |
-| [nvim-navic](https://github.com/SmiteshP/nvim-navic) | [`navic`](lua/neon-cherry-kiss/groups/navic.lua) |
-| [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) | [`neo-tree`](lua/neon-cherry-kiss/groups/neo-tree.lua) |
-| [neogit](https://github.com/TimUntersberger/neogit) | [`neogit`](lua/neon-cherry-kiss/groups/neogit.lua) |
-| [neotest](https://github.com/nvim-neotest/neotest) | [`neotest`](lua/neon-cherry-kiss/groups/neotest.lua) |
-| [noice.nvim](https://github.com/folke/noice.nvim) | [`noice`](lua/neon-cherry-kiss/groups/noice.lua) |
-| [nvim-notify](https://github.com/rcarriga/nvim-notify) | [`notify`](lua/neon-cherry-kiss/groups/notify.lua) |
-| [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) | [`nvim-tree`](lua/neon-cherry-kiss/groups/nvim-tree.lua) |
-| [octo.nvim](https://github.com/pwntester/octo.nvim) | [`octo`](lua/neon-cherry-kiss/groups/octo.lua) |
-| [rainbow-delimiters.nvim](https://github.com/HiPhish/rainbow-delimiters.nvim) | [`rainbow`](lua/neon-cherry-kiss/groups/rainbow.lua) |
-| [render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim) | [`render-markdown`](lua/neon-cherry-kiss/groups/render-markdown.lua) |
-| [nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar) | [`scrollbar`](lua/neon-cherry-kiss/groups/scrollbar.lua) |
-| [vim-sneak](https://github.com/justinmk/vim-sneak) | [`sneak`](lua/neon-cherry-kiss/groups/sneak.lua) |
-| [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | [`telescope`](lua/neon-cherry-kiss/groups/telescope.lua) |
-| [nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context) | [`treesitter-context`](lua/neon-cherry-kiss/groups/treesitter-context.lua) |
-| [trouble.nvim](https://github.com/folke/trouble.nvim) | [`trouble`](lua/neon-cherry-kiss/groups/trouble.lua) |
-| [vimwiki](https://github.com/vimwiki/vimwiki) | [`vimwiki`](lua/neon-cherry-kiss/groups/vimwiki.lua) |
-| [which-key.nvim](https://github.com/folke/which-key.nvim) | [`which-key`](lua/neon-cherry-kiss/groups/which-key.lua) |
-| [yanky.nvim](https://github.com/gbprod/yanky.nvim) | [`yanky`](lua/neon-cherry-kiss/groups/yanky.lua) |
+| [aerial.nvim](https://github.com/stevearc/aerial.nvim) | [`aerial`](lua//groups/aerial.lua) |
+| [ale](https://github.com/dense-analysis/ale) | [`ale`](lua//groups/ale.lua) |
+| [alpha-nvim](https://github.com/goolord/alpha-nvim) | [`alpha`](lua//groups/alpha.lua) |
+| [barbar.nvim](https://github.com/romgrk/barbar.nvim) | [`barbar`](lua//groups/barbar.lua) |
+| [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) | [`bufferline`](lua//groups/bufferline.lua) |
+| [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) | [`cmp`](lua//groups/cmp.lua) |
+| [nvim-dap](https://github.com/mfussenegger/nvim-dap) | [`dap`](lua//groups/dap.lua) |
+| [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) | [`dashboard`](lua//groups/dashboard.lua) |
+| [flash.nvim](https://github.com/folke/flash.nvim) | [`flash`](lua//groups/flash.lua) |
+| [fzf-lua](https://github.com/ibhagwan/fzf-lua) | [`fzf`](lua//groups/fzf.lua) |
+| [vim-gitgutter](https://github.com/airblade/vim-gitgutter) | [`gitgutter`](lua//groups/gitgutter.lua) |
+| [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) | [`gitsigns`](lua//groups/gitsigns.lua) |
+| [glyph-palette.vim](https://github.com/lambdalisue/glyph-palette.vim) | [`glyph-palette`](lua//groups/glyph-palette.lua) |
+| [grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim) | [`grug-far`](lua//groups/grug-far.lua) |
+| [headlines.nvim](https://github.com/lukas-reineke/headlines.nvim) | [`headlines`](lua//groups/headlines.lua) |
+| [hop.nvim](https://github.com/phaazon/hop.nvim) | [`hop`](lua//groups/hop.lua) |
+| [vim-illuminate](https://github.com/RRethy/vim-illuminate) | [`illuminate`](lua//groups/illuminate.lua) |
+| [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) | [`indent-blankline`](lua//groups/indent-blankline.lua) |
+| [indentmini.nvim](https://github.com/nvimdev/indentmini.nvim) | [`indentmini`](lua//groups/indentmini.lua) |
+| [lazy.nvim](https://github.com/folke/lazy.nvim) | [`lazy`](lua//groups/lazy.lua) |
+| [leap.nvim](https://github.com/ggandor/leap.nvim) | [`leap`](lua//groups/leap.lua) |
+| [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim) | [`lspsaga`](lua//groups/lspsaga.lua) |
+| [mini.animate](https://github.com/echasnovski/mini.animate) | [`mini_animate`](lua//groups/mini_animate.lua) |
+| [mini.clue](https://github.com/echasnovski/mini.clue) | [`mini_clue`](lua//groups/mini_clue.lua) |
+| [mini.completion](https://github.com/echasnovski/mini.completion) | [`mini_completion`](lua//groups/mini_completion.lua) |
+| [mini.cursorword](https://github.com/echasnovski/mini.cursorword) | [`mini_cursorword`](lua//groups/mini_cursorword.lua) |
+| [mini.deps](https://github.com/echasnovski/mini.deps) | [`mini_deps`](lua//groups/mini_deps.lua) |
+| [mini.diff](https://github.com/echasnovski/mini.diff) | [`mini_diff`](lua//groups/mini_diff.lua) |
+| [mini.files](https://github.com/echasnovski/mini.files) | [`mini_files`](lua//groups/mini_files.lua) |
+| [mini.hipatterns](https://github.com/echasnovski/mini.hipatterns) | [`mini_hipatterns`](lua//groups/mini_hipatterns.lua) |
+| [mini.icons](https://github.com/echasnovski/mini.icons) | [`mini_icons`](lua//groups/mini_icons.lua) |
+| [mini.indentscope](https://github.com/echasnovski/mini.indentscope) | [`mini_indentscope`](lua//groups/mini_indentscope.lua) |
+| [mini.jump](https://github.com/echasnovski/mini.jump) | [`mini_jump`](lua//groups/mini_jump.lua) |
+| [mini.map](https://github.com/echasnovski/mini.map) | [`mini_map`](lua//groups/mini_map.lua) |
+| [mini.notify](https://github.com/echasnovski/mini.notify) | [`mini_notify`](lua//groups/mini_notify.lua) |
+| [mini.operators](https://github.com/echasnovski/mini.operators) | [`mini_operators`](lua//groups/mini_operators.lua) |
+| [mini.pick](https://github.com/echasnovski/mini.pick) | [`mini_pick`](lua//groups/mini_pick.lua) |
+| [mini.starter](https://github.com/echasnovski/mini.starter) | [`mini_starter`](lua//groups/mini_starter.lua) |
+| [mini.statusline](https://github.com/echasnovski/mini.statusline) | [`mini_statusline`](lua//groups/mini_statusline.lua) |
+| [mini.surround](https://github.com/echasnovski/mini.surround) | [`mini_surround`](lua//groups/mini_surround.lua) |
+| [mini.tabline](https://github.com/echasnovski/mini.tabline) | [`mini_tabline`](lua//groups/mini_tabline.lua) |
+| [mini.test](https://github.com/echasnovski/mini.test) | [`mini_test`](lua//groups/mini_test.lua) |
+| [mini.trailspace](https://github.com/echasnovski/mini.trailspace) | [`mini_trailspace`](lua//groups/mini_trailspace.lua) |
+| [nvim-navic](https://github.com/SmiteshP/nvim-navic) | [`navic`](lua//groups/navic.lua) |
+| [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) | [`neo-tree`](lua//groups/neo-tree.lua) |
+| [neogit](https://github.com/TimUntersberger/neogit) | [`neogit`](lua//groups/neogit.lua) |
+| [neotest](https://github.com/nvim-neotest/neotest) | [`neotest`](lua//groups/neotest.lua) |
+| [noice.nvim](https://github.com/folke/noice.nvim) | [`noice`](lua//groups/noice.lua) |
+| [nvim-notify](https://github.com/rcarriga/nvim-notify) | [`notify`](lua//groups/notify.lua) |
+| [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) | [`nvim-tree`](lua//groups/nvim-tree.lua) |
+| [octo.nvim](https://github.com/pwntester/octo.nvim) | [`octo`](lua//groups/octo.lua) |
+| [rainbow-delimiters.nvim](https://github.com/HiPhish/rainbow-delimiters.nvim) | [`rainbow`](lua//groups/rainbow.lua) |
+| [render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim) | [`render-markdown`](lua//groups/render-markdown.lua) |
+| [nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar) | [`scrollbar`](lua//groups/scrollbar.lua) |
+| [vim-sneak](https://github.com/justinmk/vim-sneak) | [`sneak`](lua//groups/sneak.lua) |
+| [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | [`telescope`](lua//groups/telescope.lua) |
+| [nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context) | [`treesitter-context`](lua//groups/treesitter-context.lua) |
+| [trouble.nvim](https://github.com/folke/trouble.nvim) | [`trouble`](lua//groups/trouble.lua) |
+| [vimwiki](https://github.com/vimwiki/vimwiki) | [`vimwiki`](lua//groups/vimwiki.lua) |
+| [which-key.nvim](https://github.com/folke/which-key.nvim) | [`which-key`](lua//groups/which-key.lua) |
+| [yanky.nvim](https://github.com/gbprod/yanky.nvim) | [`yanky`](lua//groups/yanky.lua) |
 
 <!-- plugins:end -->
 
@@ -174,7 +174,7 @@ Install the theme with your preferred package manager, such as
 
 ```lua
 {
-  "folke/neon-cherry-kiss.nvim",
+  "folke/.nvim",
   lazy = false,
   priority = 1000,
   opts = {},
@@ -184,17 +184,17 @@ Install the theme with your preferred package manager, such as
 ## 🚀 Usage
 
 ```lua
-vim.cmd[[colorscheme neon-cherry-kiss]]
+vim.cmd[[colorscheme ]]
 ```
 
 ```vim
-colorscheme neon-cherry-kiss
+colorscheme 
 
 " There are also colorschemes for the different styles.
-colorscheme neon-cherry-kiss-night
-colorscheme neon-cherry-kiss-storm
-colorscheme neon-cherry-kiss-day
-colorscheme neon-cherry-kiss-moon
+colorscheme -night
+colorscheme -storm
+colorscheme -day
+colorscheme -moon
 ```
 
 Some plugins need extra configuration to work with **TokyoNight**.
@@ -208,7 +208,7 @@ Some plugins need extra configuration to work with **TokyoNight**.
 -- Lua
 require('barbecue').setup {
   -- ... your barbecue config
-  theme = 'neon-cherry-kiss',
+  theme = '',
   -- ... your barbecue config
 }
 ```
@@ -220,7 +220,7 @@ require('barbecue').setup {
 require('lualine').setup {
   options = {
     -- ... your lualine config
-    theme = 'neon-cherry-kiss'
+    theme = ''
     -- ... your lualine config
   }
 }
@@ -230,7 +230,7 @@ require('lualine').setup {
 
 ```vim
 " Vim Script
-let g:lightline = {'colorscheme': 'neon-cherry-kiss'}
+let g:lightline = {'colorscheme': ''}
 ```
 
 </details>
@@ -238,7 +238,7 @@ let g:lightline = {'colorscheme': 'neon-cherry-kiss'}
 ## ⚙️ Configuration
 
 > [!IMPORTANT]
-> Set the configuration **BEFORE** loading the color scheme with `colorscheme neon-cherry-kiss`.
+> Set the configuration **BEFORE** loading the color scheme with `colorscheme `.
 
 The theme offers four styles: [storm](#storm), [moon](#moon), [night](#night),
 and [day](#day).
@@ -246,7 +246,7 @@ and [day](#day).
 The [day](#day) style is used when `{ style = "day" }` is passed to
 `setup(options)` or when `vim.o.background = "light"`.
 
-[TokyoNight](https://github.com/folke/neon-cherry-kiss.nvim) uses the default options,
+[TokyoNight](https://github.com/folke/.nvim) uses the default options,
 unless `setup` is explicitly called.
 
 <details>
@@ -255,9 +255,9 @@ unless `setup` is explicitly called.
 <!-- config:start -->
 
 ```lua
----@class neon-cherry-kiss.Config
+---@class .Config
 ---@field on_colors fun(colors: ColorScheme)
----@field on_highlights fun(highlights: neon-cherry-kiss.Highlights, colors: ColorScheme)
+---@field on_highlights fun(highlights: .Highlights, colors: ColorScheme)
 M.defaults = {
   style = "moon", -- The theme comes in three styles, `storm`, a darker variant `night` and `day`
   light_style = "day", -- The theme is used when the background is set to light
@@ -285,7 +285,7 @@ M.defaults = {
 
   --- You can override specific highlights to use other groups or a hex color
   --- function will be called with a Highlights and ColorScheme table
-  ---@param highlights neon-cherry-kiss.Highlights
+  ---@param highlights .Highlights
   ---@param colors ColorScheme
   on_highlights = function(highlights, colors) end,
 
@@ -301,7 +301,7 @@ M.defaults = {
     auto = true,
     -- add any plugins here that you want to enable
     -- for all possible plugins, see:
-    --   * https://github.com/folke/neon-cherry-kiss.nvim/tree/main/lua/neon-cherry-kiss/groups
+    --   * https://github.com/folke/.nvim/tree/main/lua//groups
     -- telescope = true,
   },
 }
@@ -322,16 +322,16 @@ How the highlight groups are calculated:
    groups.
 
 For default values of `colors` and `highlights`, please consult the
-[storm](extras/lua/neon-cherry-kiss_storm.lua),
-[moon](extras/lua/neon-cherry-kiss_moon.lua),
-[night](extras/lua/neon-cherry-kiss_night.lua), and
-[day](extras/lua/neon-cherry-kiss_day.lua) themes.
+[storm](extras/lua/_storm.lua),
+[moon](extras/lua/_moon.lua),
+[night](extras/lua/_night.lua), and
+[day](extras/lua/_day.lua) themes.
 
 <details>
   <summary>Settings & Changing Colors</summary>
 
 ```lua
-require("neon-cherry-kiss").setup({
+require("").setup({
   -- use the night style
   style = "night",
   -- disable italic for functions
@@ -352,7 +352,7 @@ require("neon-cherry-kiss").setup({
   <summary>Borderless Telescope</summary>
 
 ```lua
-require("neon-cherry-kiss").setup({
+require("").setup({
   on_highlights = function(hl, c)
     local prompt = "#2d3149"
     hl.TelescopeNormal = {
@@ -418,8 +418,8 @@ You can easily use the color palette for other plugins inside your
 [Neovim](https://github.com/neovim/neovim) configuration:
 
 ```lua
-local colors = require("neon-cherry-kiss.colors").setup() -- pass in any of the config options as explained above
-local util = require("neon-cherry-kiss.util")
+local colors = require(".colors").setup() -- pass in any of the config options as explained above
+local util = require(".util")
 
 aplugin.background = colors.bg_dark
 aplugin.my_error = util.lighten(colors.red1, 0.3) -- number between 0 and 1. 0 results in white, 1 results in red1
@@ -434,10 +434,10 @@ generate themes for the different styles.
 
 How to add a new extra template:
 
-1. Create a file like `lua/neon-cherry-kiss/extra/cool-app.lua`.
+1. Create a file like `lua//extra/cool-app.lua`.
 2. Add the name and output file extension to the `extras` table in
-   `lua/neon-cherry-kiss/extra/init.lua`.
-3. Run the following command to generate new [extra](#-extras) themes from the neon-cherry-kiss plugin directory:
+   `lua//extra/init.lua`.
+3. Run the following command to generate new [extra](#-extras) themes from the  plugin directory:
 
    ```sh
    ./scripts/build

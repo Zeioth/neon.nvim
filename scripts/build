@@ -1,3 +1,3 @@
 #!/bin/env bash
 
-nvim -u tests/minit.lua --headless +"lua require('neon-cherry-kiss.extra').setup()" +qa
+nvim -u tests/minit.lua --headless +"lua require('.extra').setup()" +qa

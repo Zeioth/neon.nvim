@@ -1,5 +1,5 @@
-local Config = require("neon-cherry-kiss.config")
-local Groups = require("neon-cherry-kiss.groups")
+local Config = require(".config")
+local Groups = require(".groups")
 
 local base = { "base", "kinds", "semantic_tokens", "treesitter" }
 
@@ -8,7 +8,7 @@ before_each(function()
 end)
 
 describe("group is valid", function()
-  for name in vim.fs.dir("lua/neon-cherry-kiss/groups") do
+  for name in vim.fs.dir("lua//groups") do
     name = name:match("(.+)%.lua$")
     if name and name ~= "init" and not vim.list_contains(base, name) then
       it(name .. " has an url", function()
@@ -47,7 +47,7 @@ describe("group config", function()
     for _, name in pairs(Groups.plugins) do
       all[name] = true
     end
-    local colors = require("neon-cherry-kiss.colors").setup(opts)
+    local colors = require(".colors").setup(opts)
     local _, groups = Groups.setup(colors, opts)
     assert.same(all, groups)
   end)
@@ -58,7 +58,7 @@ describe("group config", function()
     for _, name in ipairs(base) do
       all[name] = true
     end
-    local colors = require("neon-cherry-kiss.colors").setup(opts)
+    local colors = require(".colors").setup(opts)
     local _, groups = Groups.setup(colors, opts)
     assert.same(all, groups)
   end)
@@ -74,7 +74,7 @@ describe("group config", function()
       all[name] = true
     end
     all.dashboard = true
-    local colors = require("neon-cherry-kiss.colors").setup(opts)
+    local colors = require(".colors").setup(opts)
     local _, groups = Groups.setup(colors, opts)
     assert.same(all, groups)
   end)
@@ -92,7 +92,7 @@ describe("group config", function()
       all[name] = true
     end
     all.dashboard = true
-    local colors = require("neon-cherry-kiss.colors").setup(opts)
+    local colors = require(".colors").setup(opts)
     local _, groups = Groups.setup(colors, opts)
     assert.same(all, groups)
   end)

@@ -1,14 +1,14 @@
 local M = {
-  module = "neon-cherry-kiss",
-  colorscheme = "neon-cherry-kiss",
-  opts = { style = "night", plugins = { all = true } },
+  module = "neon",
+  colorscheme = "neon",
+  opts = { style = "moon", plugins = { all = true } },
   globals = { vim = vim },
   cache = {}, ---@type table<string, boolean>
 }
 
 function M.reset()
-  require("neo-tokyonight.util").cache.clear()
-  local colors = require("neo-tokyonight.colors").setup()
+  require("neon.util").cache.clear()
+  local colors = require("neon.colors").setup()
   M.globals.colors = colors
   M.globals.c = colors
 end
