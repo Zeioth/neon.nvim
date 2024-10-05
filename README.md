@@ -34,4 +34,4 @@ Dark variants of Tokyonight with cyberpunk vibes.
 * It's esencially tokyonight with a different color palete.
 
 ## Credits
-* Some colors are taken from the amazin colorscheme `eldritch.nvim`.
+* Some colors are taken from the amazin colorscheme `eldritch.nvim` so if you like these colorschemes, give it a try too.
