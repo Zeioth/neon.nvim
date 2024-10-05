@@ -1,6 +1,6 @@
 # 🏙 Neon Cherry Kiss
 
-Dark variants of Tokyonight with cyberpunk vibes.
+Variants of Tokyonight with cyberpunk vibes.
 
 <table width="100%">
   <tr>
