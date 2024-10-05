@@ -5,14 +5,15 @@ Dark variants of Tokyonight with cyberpunk vibes.
 <table width="100%">
   <tr>
     <th>neon-cherrykiss-night</th>
-    <th>Storm</th>
+    <th>neon-cherrykiss-storm</th>
   </tr>
   <tr>
     <td width="50%">
       <img src="https://github.com/user-attachments/assets/be51d61f-e9aa-4e39-b0f6-6a686ae78e73" />
     </td>
     <td width="50%">
-      <img src="https://user-images.githubusercontent.com/292349/115295095-3a9e5080-a10e-11eb-9aed-6054488c46ce.png" />
+      <img src="https://github.com/user-attachments/assets/cbb67e7f-e8a8-4afa-b15d-c15392c84c4e" />
+
     </td>
   </tr>
   <tr>
