@@ -1,1 +1,1 @@
-require("").load({ style = "netrunner-night" })
+require("neon").load({ style = "netrunner-night" })

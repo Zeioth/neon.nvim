@@ -2,7 +2,7 @@ local M = {}
 
 ---@param style? string
 function M.get(style)
-  local colors, config = require(".colors").setup({
+  local colors, config = require("neon.colors").setup({
     style = style,
   })
 

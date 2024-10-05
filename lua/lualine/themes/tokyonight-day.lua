@@ -1,1 +1,1 @@
-return require("lualine.themes._").get("day")
+return require("lualine.themes._neon").get("day")

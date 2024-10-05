@@ -1,1 +1,1 @@
-return require("lualine.themes._").get()
+return require("lualine.themes._neon").get()

@@ -1,4 +1,4 @@
-local c = require(".colors").setup()
+local c = require("neon.colors").setup()
 
 local M = {
   normal = { bg = c.none, fg = c.fg_dark },

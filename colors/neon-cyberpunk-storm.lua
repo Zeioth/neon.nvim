@@ -1,1 +1,1 @@
-require("").load({ style = "cyberpunk-storm" })
+require("neon").load({ style = "cyberpunk-storm" })

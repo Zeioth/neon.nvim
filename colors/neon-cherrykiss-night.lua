@@ -1,1 +1,1 @@
-require("").load({ style = "cherrykiss-night" })
+require("neon").load({ style = "cherrykiss-night" })
