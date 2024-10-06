@@ -54,7 +54,7 @@ Variants of Tokyonight with cyberpunk vibes.
 </table>
 
 ## Features
-* Support the same plugins tokyonight.nvim do.
+* Supports the same plugins tokyonight.nvim do.
 * It's esencially tokyonight with a different color palete.
 
 ## Credits
