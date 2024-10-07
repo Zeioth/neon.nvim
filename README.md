@@ -59,7 +59,7 @@ Variants of Tokyonight with cyberpunk vibes.
 
 ## How to install
 In this example we install it using the lazy package manager
-```
+```lua
 {
   "Zeioth/neon.nvim",
   opts = {
