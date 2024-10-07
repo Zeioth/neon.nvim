@@ -102,7 +102,7 @@ vim.cmd.colorscheme("neon-netrunner-storm")
 vim.cmd.colorscheme("neon-punkpeach-storm")
 ```
 
-Remember if you use Telescope, you can list all colorschemes with:
+Remember if you use Telescope, you can list all colorschemes to preview them in real time with:
 ```lua
 :lua require("telescope.builtin").colorscheme({ enable_preview = true, ignore_builtins = true })
 ```
