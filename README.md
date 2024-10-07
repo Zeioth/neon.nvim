@@ -88,7 +88,7 @@ Then you can just apply it like any other colorscheme:
 ```
 
 Or using lua:
-```
+```lua
 -- night variants
 vim.cmd.colorscheme("neon-cherrykiss-night")
 vim.cmd.colorscheme("neon-cyberpunk-night")
